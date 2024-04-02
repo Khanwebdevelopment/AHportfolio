@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="hfc">
+      <div class="logo"><h1>ABBAS <span style="color:rgb(127, 220, 99)">KHAN</span></h1>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger-menu">&#9776;</div> <!-- Hamburger menu icon for mobile -->
+    </div>
+  </header>
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-heading">Muhammad Abbas Haider</h1>
+    <h2 class="hero-subheading">Wordpress Designer || Elementor Pro Expert</h2>
+    <p class="hero-paragraph">Welcome to my portfolio website. I specialize in creating stunning web experiences.</p>
+    <div class="hero-buttons">
+      <button class="btn btn-primary">Portfolio</button>
+      <button class="btn btn-secondary">Contact</button>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="janab.jpeg" alt="Your Image">
+  </div>
+</section>
+
+<section class="about-us" id="about">
+  
+  
+    
+        <div class="about-image">
+          <img src="KHAN.png" alt="About Image">
+        </div>
+      
+      <div class="about-details">
+        <h2>About Us</h2>
+        
+          <p>My name is <b class="special-words">Muhammad Abbas</b> and I specialize in creating stunning websites using <b class="special-words">Elementor Pro</b> on WordPress. Not only do I design websites, but I also excel in seamlessly converting Figma or PSD designs into fully functional, beautiful websites. I have been freelancing for the past year, and every client I've worked with has been 100% satisfied, leaving me with a 5-star rating and a desire to work together again. I take pride in educating clients whenever necessary and never compromise on quality by adding unnecessary plugins. My job completion rate has always been a perfect 100%.<br>
+
+<b class="special-words">futuristic approach</b><br> I am now integrating AI into my skill set to better understand and meet my clients' needs. By understanding their expectations and providing them with results that exceed their expectations, I aim to ensure 100% satisfaction for every client I work with.</p>
+      
+</section>
+
+
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="3-devices-black.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of project 1...</p>
+        <button class="btn" onclick="openLightbox('3-devices-black.png', 'Danish Elegance: Transparent Umbrella for Women', 'Delve into the world of sophisticated rainwear with our latest project, a website dedicated to transparent umbrellas for women. Crafted exclusively for our esteemed client from Denmark, this elegant website showcases the perfect blend of functionality and style. Developed using WordPress and Elementor PRO, the site seamlessly integrates stunning visuals with user-friendly navigation, ensuring a delightful browsing experience for visitors. From sleek product galleries to informative content, every element is meticulously designed to reflect the essence of Danish elegance. Explore our portfolio to witness how we brought this vision to life, catering to the discerning tastes of modern Danish women seeking both protection and fashion-forward allure in their rainy day essentials.')">View Details</button>
+        <button class="site-btn"><a href="https://gennemsigtigparaply.dk/" target="_blank">Visit</a></button>
+      </div>
+      <div class="portfolio-item">
+        <img src="3-devices-black (1).png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of project 2...</p>
+        <button class="btn" onclick="openLightbox('3-devices-black (1).png', 'Colorful Canopies: A Childrens Umbrella Emporium', 'Step into the whimsical world of Colorful Canopies, a delightful online emporium dedicated to providing the perfect umbrella companions for children. Crafted with care and creativity, our collection features a kaleidoscope of vibrant hues, playful patterns, and sturdy designs, ensuring that every rainy day becomes an adventure for your little ones. Designed with both style and functionality in mind, our umbrellas offer reliable protection from the elements while sparking joy with their enchanting aesthetics. Explore our diverse range of designs and find the perfect umbrella to brighten your child rainy day. Welcome to Colorful Canopies, where every drizzle brings a splash of fun!')">View Details</button>
+        <button class="site-btn"><a href="https://boerneparaply.dk/" target="_blank">Visit</a></button>
+      </div>
+      <!-- Add more portfolio items as needed -->
+      <div class="portfolio-item">
+        <img src="3-devices-black (2).png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of project 2...</p>
+        <button class="btn" onclick="openLightbox('3-devices-black (2).png', 'Blue Storm Umbrella Website ', 'Designed for a discerning client in Denmark, the Blue Storm Umbrella website showcases the epitome of Scandinavian elegance and functionality. Crafted using WordPress and Elementor Pro, this website seamlessly combines stunning visuals with intuitive navigation, reflecting the client commitment to quality and style. From sleek product displays to informative content, every element is meticulously tailored to enhance user experience and highlight the unique features of Blue Storm Umbrellas. Explore the website to discover how Danish design transforms rainy days into moments of sophistication and comfort')">View Details</button>
+        <button class="site-btn"><a href="https://stormparaply.dk/" target="_blank">Visit</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lightbox" id="lightbox">
+  <div class="lightbox-content">
+    <div class="lightbox-image">
+      <img src="" alt="Lightbox Image" id="lightboxImage">
+    </div>
+    <div class="lightbox-text">
+      <h3 id="lightboxTitle"></h3>
+      <p id="lightboxDescription"></p>
+    </div>
+    <span onclick="closeLightbox()" style="cursor: pointer; position: absolute; top: 15px; right: 15px; font-size: 54px; color: #000000;">&times;</span>
+  </div>
+</section>
+
+
+<section class="testimonial" id="reviews">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="testimonial-list">
+      <div class="testimonial-item">
+        <div class="testimonial-content">
+          <p>"Muhammad Abbas is highly skilled wordpress developer. He worked on multiple projects with me and able to deliver on time"</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="sharma.png" alt="Client 1">
+          <div class="author-details">
+            <h3><a href="#"><i class="fa fa-linkedin-square"></i>Praveen Sharma</a></h3>
+            <div class="rating">
+              <span class="fa fa-star checked">&#9733;</span>
+              <span class="fa fa-star checked">&#9733;</span>
+              <span class="fa fa-star checked">&#9733;</span>
+              <span class="fa fa-star">&#9733;</span>
+              <span class="fa fa-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <div class="testimonial-content">
+          <p>"I am pleased with the work this freelancer has done in building a beautiful website. He adheres to what we have agreed upon, and on time."</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="runo.webp" alt="Client 2">
+          <div class="author-details">
+            <h3><a href="#"><i class="fa fa-linkedin-square"></i>Runo K.</a></h3>
+            <div class="rating">
+              <span class="fa fa-star checked">&#9733;</span>
+              <span class="fa fa-star checked">&#9733;</span>
+              <span class="fa fa-star checked">&#9733;</span>
+              <span class="fa fa-star">&#9733;</span>
+              <span class="fa fa-star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2> Contact Us</h2>
+  <div class="container">
+    <div class="contact-buttons">
+      
+      <button class="btn btn-lg btn-circle" ><a href="https://www.upwork.com/freelancers/muhammada5003" target="_blank"><img src="email2.gif" alt=""></a></button>
+      
+      <button class="btn btn-lg btn-circle center-btn"><a href="https://www.freelancer.com/u/mh3962144?frm=mh3962144&sb=t" target="_blank"><i class="fas fa-map-marker-alt"><img src="freelancer (2).png" alt=""></i></a></button>
+     
+      <button class="btn btn-lg btn-circle"><a href="https://www.linkedin.com/in/abbas-wpdesigner/" target="_blank"><i class="fab fa-linkedin"> <img src="linkdin.gif" alt=""></i></a></button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+ <script>
+    // Portfolio filter
+    function openLightbox(imageSrc, title, description) {
+            document.getElementById('lightboxImage').src = imageSrc;
+            document.getElementById('lightboxTitle').innerText = title;
+            document.getElementById('lightboxDescription').innerText = description;
+            document.getElementById('lightbox').style.display = 'flex';
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+ </script>
+</body>
+</html>
